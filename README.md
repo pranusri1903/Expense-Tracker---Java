@@ -35,7 +35,7 @@ A simple Java Swing-based desktop application to track daily expenses with a gra
 
 - **Java** – Core logic and OOP
 - **Java Swing** – GUI framework for the user interface
-- **Text File** – Used for local storage
+- **Binary File** – Used for local storage
 
 ---
 
@@ -64,7 +64,7 @@ A simple Java Swing-based desktop application to track daily expenses with a gra
   - Add expense details
   - View and manage entries
   - See total expenses displayed dynamically
-- All data is stored in `expenses.txt`.
+- All data is stored in `username_expenses.dat`.
 
 ---
 
