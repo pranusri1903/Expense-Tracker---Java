@@ -74,7 +74,7 @@ A simple Java Swing-based desktop application to track daily expenses with a gra
 Expense-Tracker---Java/
 ├── Expense.java            # Model class
 ├── ExpenseTracker.java     # Swing GUI and application logic
-├── expenses.txt            # Persistent data storage
+├── name_expenses.dat       # Persistent data storage
 └── README.md               # Documentation
 ```
 
