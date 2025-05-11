@@ -1,7 +1,7 @@
 
-# 💸 Expense Tracker - Java
+# 💸 Expense Tracker - Java (Swing GUI)
 
-A simple **command-line Expense Tracker** built in Java that allows users to add, view, and manage daily expenses. This project showcases the use of **Java classes, file handling, OOP principles**, and a basic interactive menu system.
+A simple Java Swing-based desktop application to track daily expenses with a graphical user interface. The project demonstrates Java OOP principles, file handling, and basic GUI design using Swing.
 
 ---
 
@@ -23,33 +23,30 @@ A simple **command-line Expense Tracker** built in Java that allows users to add
 ## ✅ Features
 
 - ➕ Add a new expense with description, amount, and category
-- 📋 View all recorded expenses
-- ❌ Delete expenses by ID
+- 📋 View all recorded expenses in a GUI table
+- ❌ Delete expenses with a click
 - 💰 Calculate total expenditure
-- 💾 Data persistence using file handling
-- 🧭 Menu-driven CLI interface
+- 💾 Persistent storage using text files
+- 🖱️ Easy-to-use graphical interface via Java Swing
 
 ---
 
 ## 📽️ Demo
 
 > *(Add screenshots or a video demo if available)*  
-Example menu:
-```
-1. Add Expense  
-2. View Expenses  
-3. Delete Expense  
-4. Get Total Expense  
-5. Exit  
-```
+Main features available through buttons and forms:
+- Add Expense
+- View Table
+- Delete Entry
+- Show Total
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Java** – Core logic and file I/O
-- **Text File** – Used as local storage (`expenses.txt`)
-- **CLI** – Command-line user interface
+- **Java** – Core logic and OOP
+- **Java Swing** – GUI framework for the user interface
+- **Text File** – Used for local storage
 
 ---
 
@@ -57,7 +54,7 @@ Example menu:
 
 ### Prerequisites:
 - JDK 8 or later
-- Java-compatible IDE (Eclipse, IntelliJ, etc.)
+- Java-compatible IDE (Eclipse, IntelliJ, NetBeans)
 
 ### Steps:
 1. Clone the repository:
@@ -67,18 +64,18 @@ Example menu:
 
 2. Open the project in your IDE.
 
-3. Compile and run the `ExpenseTracker.java` file.
+3. Compile and run the main GUI class file (e.g., `ExpenseTracker.java`).
 
 ---
 
 ## 🧪 Usage
 
-Upon running the program, follow the on-screen menu options to:
-
-- **Add** a new expense by entering details.
-- **View** all stored expenses from the `expenses.txt` file.
-- **Delete** an expense by its ID or index.
-- **Get total** expenses calculated dynamically.
+- Launch the GUI window.
+- Use the input fields and buttons to:
+  - Add expense details
+  - View and manage entries
+  - See total expenses displayed dynamically
+- All data is stored in `expenses.txt`.
 
 ---
 
@@ -86,9 +83,9 @@ Upon running the program, follow the on-screen menu options to:
 
 ```
 Expense-Tracker---Java/
-├── Expense.java            # Model class representing an expense
-├── ExpenseTracker.java     # Main logic and user interface
-├── expenses.txt            # Persistent file storage
+├── Expense.java            # Model class
+├── ExpenseTracker.java     # Swing GUI and application logic
+├── expenses.txt            # Persistent data storage
 └── README.md               # Documentation
 ```
 
@@ -96,11 +93,11 @@ Expense-Tracker---Java/
 
 ## 🌱 Future Enhancements
 
-- [ ] Add **category-wise expense filtering**
-- [ ] Implement **monthly expense reports**
-- [ ] Create a **GUI version** using JavaFX or Swing
-- [ ] Export data to **CSV or Excel**
-- [ ] Use **database (e.g., SQLite)** for storage instead of flat file
+- [ ] Category-wise filters and sorting
+- [ ] Monthly or yearly analytics
+- [ ] Export to CSV or Excel
+- [ ] Database integration (SQLite/MySQL)
+- [ ] Modern UI using JavaFX
 
 ---
 
@@ -115,4 +112,16 @@ To contribute:
 4. Push to the branch (`git push origin feature-name`)
 5. Open a **Pull Request**
 
+---
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+Made with ❤️ by [Pranusri1903](https://github.com/pranusri1903)
+
+---
