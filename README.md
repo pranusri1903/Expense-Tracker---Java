@@ -31,17 +31,6 @@ A simple Java Swing-based desktop application to track daily expenses with a gra
 
 ---
 
-## 📽️ Demo
-
-> *(Add screenshots or a video demo if available)*  
-Main features available through buttons and forms:
-- Add Expense
-- View Table
-- Delete Entry
-- Show Total
-
----
-
 ## 🧰 Tech Stack
 
 - **Java** – Core logic and OOP
@@ -89,7 +78,6 @@ Expense-Tracker---Java/
 └── README.md               # Documentation
 ```
 
----
 
 ## 🌱 Future Enhancements
 
@@ -112,16 +100,3 @@ To contribute:
 4. Push to the branch (`git push origin feature-name`)
 5. Open a **Pull Request**
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 👤 Author
-
-Made with ❤️ by [Pranusri1903](https://github.com/pranusri1903)
-
----
